@@ -1,0 +1,17 @@
+COMPILE_OPTS = -g -O0	-Xclang -load -Xclang /home/ubuntu/state-instrument/SVInstrument_Pass.so	$(INCLUDES) -I. -fno-discard-value-names  -DSOCKLEN_T=socklen_t -D_LARGEFILE_SOURCE=1 -D_FILE_OFFSET_BITS=64 -DALLOW_RTSP_SERVER_PORT_REUSE=1 
+C =			c
+C_COMPILER =		clang-10
+C_FLAGS =		$(COMPILE_OPTS) $(CPPFLAGS) $(CFLAGS)
+CPP =			cpp
+CPLUSPLUS_COMPILER =	clang++-10
+CPLUSPLUS_FLAGS =	$(COMPILE_OPTS) -Wall -DBSD=1 $(CPPFLAGS) $(CXXFLAGS)
+OBJ =			o
+LINK =			clang++-10  -o 
+LINK_OPTS =		
+CONSOLE_LINK_OPTS =	$(LINK_OPTS)
+LIBRARY_LINK =		ar cr 
+LIBRARY_LINK_OPTS =	
+LIB_SUFFIX =			a
+LIBS_FOR_CONSOLE_APPLICATION = -lrt /home/ubuntu/state-instrument/state_rt.a -lssl -lcrypto
+LIBS_FOR_GUI_APPLICATION = 
+EXE =

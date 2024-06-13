@@ -1,0 +1,17 @@
+seed_type,run,scov_type,time,scov
+Manual,5,node,1709539586,5
+Manual,5,edge,1709539586,5
+Manual,5,node,1709539590,6
+Manual,5,edge,1709539590,6
+Manual,5,node,1709539797,9
+Manual,5,edge,1709539797,10
+Manual,5,node,1709540445,10
+Manual,5,edge,1709540445,11
+Manual,5,node,1709540988,10
+Manual,5,edge,1709540988,11
+Manual,5,node,1709544505,10
+Manual,5,edge,1709544505,12
+Manual,5,node,1709569627,20
+Manual,5,edge,1709569627,23
+Manual,5,node,1709572773,20
+Manual,5,edge,1709572773,24

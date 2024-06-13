@@ -1,0 +1,57 @@
+{
+    "Target": "live555",
+    "StateVarables":[
+        {
+            "name": "areAuthenticated"
+        },
+        {
+            "name": "playAfterSetup"
+        },
+        {
+            "name": "deliverViaTCP"
+        },
+        {
+            "name": "isValidHTTPCmd"
+        },
+        {
+            "name": "startTimeIsNow"
+        },
+        {
+            "name": "curRecordType"
+        },
+        {
+            "name": "fTCPReadingState"
+        },
+        {
+            "name": "streamingMode"
+        },
+        {
+            "name": "fState"
+        },
+        {
+            "name": "fInviteClientState"
+        },
+        {
+            "name": "parseSucceeded"
+        },
+        {
+            "name":"fAreCurrentlyBeingPlayed"
+        },
+        {
+            "name":"haveActiveSubsessions"
+        },
+        {
+            "name":"playAfterSetup"
+        },
+        {
+            "name":"wasAlreadyInitiated"
+        },
+        {
+            "name": "success"
+        },
+        {
+            "name":"fAreCurrentlyPlaying"
+        }
+
+    ]
+}
