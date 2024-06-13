@@ -55,8 +55,8 @@ ENV SVInfos_PATH="/home/ubuntu/SVConfig"
 
 
 # Set up Learner
-RUN git clone https://gitee.com/Br1m4zz16/state-instrument.git ${WORKDIR}/state-instrument
-RUN git clone https://gitee.com/Br1m4zz16/svcs-learner.git ${WORKDIR}/svcs-learner
+RUN git clone https://github.com/Br1m4zz/state-instrument.git ${WORKDIR}/state-instrument
+RUN git clone https://github.com/Br1m4zz/SVRM-Learner.git ${WORKDIR}/svcs-learner
 
 RUN cd state-instrument && \
     make clean all $MAKE_OPT
