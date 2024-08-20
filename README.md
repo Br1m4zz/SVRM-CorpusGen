@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/fba5909d-ea76-4e91-acb4-dff040613435)
 
 # State Instrument(SVRM output Symbolizer) & SVRM-Learner (SVRM modeler)& SVRM-Composer (Corpus Generator)
 this is the repo of SVRM-Learner (src) \ SVRM-Composer \ StateInstrument
